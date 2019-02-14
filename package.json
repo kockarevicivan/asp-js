@@ -1,0 +1,36 @@
+{
+  "name": "asp-js",
+  "version": "1.0.0",
+  "description": "ASP-like framework for NodeJS.",
+  "main": "index.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "npm run tsc && node build/index.js",
+    "watch": "npm run tsc -- --watch  && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kockarevicivan/asp-js.git"
+  },
+  "keywords": [
+    "ASP",
+    "JS",
+    "MVC"
+  ],
+  "author": "Ivan Kockarevic",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kockarevicivan/asp-js/issues"
+  },
+  "homepage": "https://github.com/kockarevicivan/asp-js#readme",
+  "dependencies": {
+    "@types/es6-shim": "^0.31.38",
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
