@@ -1,2 +1,3 @@
 # asp-js
-ASP-like framework for NodeJS.
+
+Simple experiment for ASP-like routing ("/controller/action" pattern with url parsing and reflection) in NodeJS + TypeScript.
